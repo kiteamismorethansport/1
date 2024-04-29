@@ -21,8 +21,7 @@ jobs:
       # This step uses actions/setup-node to set up a Node.js environment with version 20.
 
     - name: Install Newman
-      run: npm install -g newman 
-      run: npm install -g newman-reporter-htmlextra
+      run: npm install -g newman newman-reporter-htmlextra
       
 
     - name: Run Newman with HTML report
