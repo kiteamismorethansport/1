@@ -41,7 +41,7 @@ jobs:
         git add index.html
         git commit -m "Update Newman report on GitHub Pages"
         git push -f https://${{ secrets.GH_PAGES }}@github.com/kiteamismorethansport/1 gh-pages
-      #seems all done
+      
       
       
 
